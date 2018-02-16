@@ -31,6 +31,10 @@ setTimeout(function() {
     setTimeout(function() {
         $('.background-slider').css('opacity','1');
     },1);
+    $('.menu').css('z-index','8');
+    setTimeout(function() {
+        $('.menu').css('opacity','1');
+    },1);
 },2680);
 
 var app = new Vue({
