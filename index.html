@@ -18,12 +18,12 @@
     <div class="background-start">
             <div class="background-start__color"></div>
     </div>
-    <div class="background-slider">
+    <div class="background-slider" >
             <img src="img/d2.jpg">
             <img src="img/d1.jpg">
             <img src="img/d3.jpg">
     </div>
-    <div class="main-text">
+    <div class="main-text" class="animated fadeIn">
         КОЗЛО<p>ВА</p>
     </div>
     <div class="wall">
@@ -32,11 +32,12 @@
     <div class="works-button" class="animated fadeIn" onclick="gallery()">Работы</div>
 
     <div class="menu" >
-        <h2 class="animated fadeIn">|О АВТОРЕ</h2><p></p>
+        <h2 class="animated fadeIn" onclick="author()">|О АВТОРЕ</h2><p></p>
         <h2 class="animated fadeIn">|МЕСТА</h2><p></p>
         <h2 class="animated fadeIn">|КОНТАКТЫ</h2><p></p>
     </div>
 
+    <div class="timetable" class="animated fadeIn"></div>
 
     <div class="gallery">
         <div class="gallery__logo" ><h1>#Козлова_фото</h1></div>
@@ -48,6 +49,20 @@
         </div>
         <div class="gallery__exit"><h1 onclick="gallery__exit()">x</h1></div>
     </div>
+    
+    <div class="author">
+        <div class="author__line" onclick="author__exit()">ГЛАВНАЯ</div>
+        <div class="author__logo">#Козлова_о_себе</div>
+        <div class="author__text">
+            "Бог и Дьявол - это символически дихотомия Единства, существовавшего без оных до Начала-Начал в виде абсолютной неопределенности или Нейтрали.
+            Оные образованы в точке Начала, с разделением Нейтрали на абсолютную дихотомию () и последующим взаимодействием между собой в потоке сотворенного времени, до момента полного источения друг в друга своего индивидуального потенциала с образованием в точке Конца-Концов, некоторого Нового неизвестного состояния собственного существа, которое я называю Абсолютной Гармонией.
+            Понятия Отец и Сын настолько условны, что разобраться в том, кто чей сын довольно затруднительно.
+        </div>
+        <div class="author__photo">
+            <img src="img/author.png" alt="">
+        </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>

@@ -8,12 +8,12 @@ $(document).ready(function() {
     });
 
     $('.owl-carousel').owlCarousel({
-        loop:true, //Зацикливаем слайдер
-        margin:50, //Отступ от элемента справа в 50px
-        nav:false, //Отключение навигации
-        autoplay:true, //Автозапуск слайдера
-        smartSpeed:1000, //Время движения слайда
-        autoplayTimeout:2000, //Время смены слайда
+        loop:true, 
+        margin:50,
+        nav:false,
+        autoplay:true,
+        smartSpeed:1000,
+        autoplayTimeout:2000,
         items:4,
         center:true,
         dots:false,
@@ -34,6 +34,14 @@ setTimeout(function() {
     $('.menu').css('z-index','8');
     setTimeout(function() {
         $('.menu').css('opacity','1');
+    },1);
+    $('.main-text').css('z-index','5');
+    setTimeout(function() {
+        $('.main-text').css('opacity','0.1');
+    },1);
+    $('.timetable').css('z-index','8');
+    setTimeout(function() {
+        $('.timetable').css('opacity','0.8');
     },1);
 },2680);
 
@@ -66,4 +74,27 @@ function gallery__exit(){
     setTimeout(function() {
         $('.gallery').css('z-index','0');
     }, 1);
+}
+
+function author(){
+    $('.author').css('display','block');
+    setTimeout(function() {
+        $('.author').css('opacity','1');
+    }, 1);
+    setTimeout(function() {
+        $('.author__line').css('height','100%');
+        $('.author__logo').css('top','0%');
+    }, 100);
+    setTimeout(function() {
+        $('.author__text').css('opacity','1');
+    }, 300);
+}
+function author__exit(){
+    $('.author').css('opacity','0');
+    $('.author__line').css('height','0%');
+    $('.author__logo').css('top','-100%');
+    $('.author__text').css('opacity','0');
+    setTimeout(function() {
+        $('.author').css('display','none');
+    }, 600);
 }
