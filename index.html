@@ -33,11 +33,15 @@
 
     <div class="menu" >
         <h2 class="animated fadeIn" onclick="author()">|О АВТОРЕ</h2><p></p>
-        <h2 class="animated fadeIn">|МЕСТА</h2><p></p>
-        <h2 class="animated fadeIn">|КОНТАКТЫ</h2><p></p>
+        <h2 class="animated fadeIn" onclick="price()">|ЦЕНЫ</h2><p></p>
+        <h2 class="animated fadeIn" onclick="contacts()">|КОНТАКТЫ</h2><p></p>
     </div>
 
-    <div class="timetable" class="animated fadeIn"></div>
+   <!-- <div class="timetable" class="animated fadeIn">
+        Студия: 1400 <p></p>
+        Обычная: 700 <p></p>
+        Быстрая запись: +123521352
+    </div> -->
 
     <div class="gallery">
         <div class="gallery__logo" ><h1>#Козлова_фото</h1></div>
@@ -63,6 +67,39 @@
         </div>
     </div>
 
+
+    <div class="price">
+        <div class="price__line" onclick="price__exit()">ГЛАВНАЯ</div>
+        <div class="price__logo">#Козлова_цены</div>
+        <div class="price__icon-back">
+                &#8381;
+        </div>
+        <div class="price__text"></div>
+        <div class="price__photo-standart">
+            <img src="img/standart.png" alt="">
+        </div>
+        <div class="price__photo-studio">
+            <img src="img/studio.png" alt="">
+        </div>
+        <div class="price__photo-lovestory">
+             <img src="img/lovestory.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="contacts">
+        <div class="contacts__line" onclick="contacts__exit()">ГЛАВНАЯ</div>
+        <div class="contacts__logo">#Козлова_контакты</div>
+        <div class="contacts__icon-back-vk">
+            <img src="img/vk.svg" alt="">
+        </div>
+        <div class="contacts__text">
+            <a href="https://vk.com/credonellaparola"> <img src="img/vk.svg" alt="">&#8194; - credonellaparola</a><p></p>
+            <a href="https://vk.com/credonellaparola"> <img src="img/instagram.svg" alt="">&#8194; - coslovs</a><p></p>
+            <a href=""> <img src="img/email.svg" alt="">&#8194; - coslovs@mail.ru</a><p></p>
+            <a href=""> <img src="img/phone.svg" alt="">&#8194; - +79181232222</a>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>

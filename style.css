@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
-    overflow: hidden
+    overflow: hidden;
+    text-decoration:none;
 }
 h1{
     font-size: 70pt;
@@ -81,8 +82,8 @@ h3{
     position: absolute;
     width: 16%;
     height: 8%;
-    background-color: yellow;
-    top: 70%;
+    background-color: #ffec59;
+    top: 46%;
     left: 42%;
     z-index: 3;
     display: grid;
@@ -119,6 +120,10 @@ h3{
     top:3.5%;
     cursor:pointer;
 }
+.gallery__exit h1{
+    color: #ffec59;
+    font-size: 60pt;
+}
 .owl-carousel{
     top: 20%;
     cursor:pointer;
@@ -145,13 +150,18 @@ h3{
     position: absolute;
     width: 24%;
     height: 30%;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(100, 100, 100);
     z-index: 0;
     opacity: 0;
     left: 38%;
     top:35%;
     transition: 2s;
     border-radius: 10px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 20pt;
 }
 .author{
     position: absolute;
@@ -161,7 +171,7 @@ h3{
     z-index: 80;
     opacity: 0;
     transition: 0.5s;
-    background-color: yellow;
+    background-color: #ffec59;
 }
 .author__line{
     position: absolute;
@@ -173,12 +183,12 @@ h3{
     font-size: 140pt;
     font-weight: 700;
     line-height: 0.7;
-    color: rgb(200, 223, 0);
+    color: #e8d545;
     writing-mode: vertical-lr;
     cursor: pointer;
 }
 .author__line:hover{
-    background-color: rgb(200, 223, 0);
+    background-color: #e8d545;
     transition: 0.3s;
 }
 .author__logo{
@@ -193,16 +203,16 @@ h3{
 .author__text{
     position: absolute;
     transition: 0.5s;
-    width: 36%;
-    height: 80%;
-    top:20%;
+    width: 45%;
+    height: 86%;
+    top:14%;
     left: 2%;
     display: grid;
     justify-content: center;
     align-content: center;
     color: black;
     font-size: 20pt;
-    font-weight: 100;
+    font-weight: 400;
     opacity: 0;
 }
 .author__photo{
@@ -217,6 +227,179 @@ h3{
     align-content: center;
 }
 .author__photo img{
+    width: 100%;
+}
+
+
+.price{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 80;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: #3f50af;
+}
+.price__line{
+    position: absolute;
+    width: 20%;
+    left: 80%;
+    border-left: 5px solid white;
+    height: 0%;
+    transition: 0.5s;
+    font-size: 140pt;
+    font-weight: 700;
+    line-height: 0.7;
+    color: #2f3c86;
+    writing-mode: vertical-lr;
+    cursor: pointer;
+}
+.price__line:hover{
+    background-color: #2f3c86;
+    transition: 0.3s;
+}
+.price__logo{
+    position: absolute; 
+    transition: 0.5s;
+    color: white;
+    font-size: 40pt;
+    font-weight: 700;
+    font-size: 100pt;
+    top: -100%;
+}
+.price__text{
+    position: absolute;
+    transition: 0.5s;
+    width: 36%;
+    height: 80%;
+    top:20%;
+    left: 2%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    font-size: 20pt;
+    font-weight: 400;
+    opacity: 0;
+}
+.price__icon-back{
+    position: absolute;
+    transition: 0.5s;
+    width: 60%;
+    height: 100%;
+    color: white;
+    opacity: 0.1;
+    font-size: 770pt;
+}
+.price__photo-standart{
+    position: absolute;
+    transition: 0.5s;
+    width: 80%;
+    height: 26.7%;
+    top:20%;
+    opacity: 0.3;
+}
+.price__photo-standart img{
+    width: 100%;
+}
+.price__photo-studio{
+    position: absolute;
+    transition: 0.5s;
+    width: 80%;
+    height: 26.7%;
+    top:46.6%;
+    opacity: 0.3;
+}
+.price__photo-studio img{
+    width: 100%;
+}
+.price__photo-lovestory{
+    position: absolute;
+    transition: 0.5s;
+    width: 80%;
+    height: 26.7%;
+    top:73.3%;
+    opacity: 0.3;
+}
+.price__photo-lovestory img{
+    width: 100%;
+}
+
+
+
+
+.contacts{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 80;
+    opacity: 0;
+    transition: 0.5s;
+    background-color: #e83737;
+}
+.contacts__line{
+    position: absolute;
+    width: 20%;
+    left: 80%;
+    border-left: 5px solid white;
+    height: 0%;
+    transition: 0.5s;
+    font-size: 140pt;
+    font-weight: 700;
+    line-height: 0.7;
+    color: #c82626;
+    writing-mode: vertical-lr;
+    cursor: pointer;
+}
+.contacts__line:hover{
+    background-color: #c82626;
+    transition: 0.3s;
+}
+.contacts__logo{
+    position: absolute; 
+    transition: 0.5s;
+    color: white;
+    font-size: 40pt;
+    font-weight: 700;
+    font-size: 100pt;
+    top: -100%;
+}
+.contacts__text{
+    position: absolute;
+    transition: 0.5s;
+    width: 40%;
+    height: 80%;
+    top:30%;
+    left: 5%;
+    color: white;
+    font-size: 50pt;
+    font-weight: 400;
+    opacity: 0;
+    float:left;
+}
+.contacts__text a{
+    color: white;
+    transition: 0.5s;
+}
+.contacts__text a:hover{
+    color: pink;
+}
+.contacts__text img{
+    width: 80px;
+    float:left;
+}
+.contacts__icon-back-vk{
+    position: absolute;
+    transition: 0.5s;
+    width: 60%;
+    height: 100%;
+    top:10%;
+    left: -10%;
+    opacity: 0.1;
+}
+.contacts__icon-back-vk img{
     width: 100%;
 }
 @keyframes dark{
@@ -241,10 +424,10 @@ h3{
         top: 46%;
     }
     70%{
-        top: 20%;
+        top: 34%;
     }
     100%{
-        top: 20%;
+        top: 34%;
     }
 }
 @keyframes fade{
@@ -257,16 +440,16 @@ h3{
 }
 @keyframes colors{
     0%{
-        background-color: red;
+        background-color: #e83737;
     }
     20%{
-        background-color: red;
+        background-color: #e83737;
     }
     25%{
-        background-color: yellow;
+        background-color: #ffec59;
     }
     46%{
-        background-color: yellow;
+        background-color: #ffec59;
     }
     50%{
         background-color: #333366;

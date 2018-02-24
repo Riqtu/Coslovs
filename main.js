@@ -98,3 +98,52 @@ function author__exit(){
         $('.author').css('display','none');
     }, 600);
 }
+
+
+function price(){
+    $('.price').css('display','block');
+    setTimeout(function() {
+        $('.price').css('opacity','1');
+    }, 1);
+    setTimeout(function() {
+        $('.price__line').css('height','100%');
+        $('.price__logo').css('top','0%');
+    }, 100);
+    setTimeout(function() {
+        $('.price__text').css('opacity','1');
+    }, 300);
+}
+function price__exit(){
+    $('.price').css('opacity','0');
+    $('.price__line').css('height','0%');
+    $('.price__logo').css('top','-100%');
+    $('.price__text').css('opacity','0');
+    setTimeout(function() {
+        $('.price').css('display','none');
+    }, 600);
+}
+
+
+
+function contacts(){
+    $('.contacts').css('display','block');
+    setTimeout(function() {
+        $('.contacts').css('opacity','1');
+    }, 1);
+    setTimeout(function() {
+        $('.contacts__line').css('height','100%');
+        $('.contacts__logo').css('top','0%');
+    }, 100);
+    setTimeout(function() {
+        $('.contacts__text').css('opacity','1');
+    }, 300);
+}
+function contacts__exit(){
+    $('.contacts').css('opacity','0');
+    $('.contacts__line').css('height','0%');
+    $('.contacts__logo').css('top','-100%');
+    $('.contacts__text').css('opacity','0');
+    setTimeout(function() {
+        $('.contacts').css('display','none');
+    }, 600);
+}
