@@ -143,7 +143,7 @@ h3{
     transition: 2s;
 }
 .menu h2:hover{
-    color:yellow;
+    color:#ffec59;
     transition: 0.1s;
 }
 .timetable{
@@ -326,6 +326,48 @@ h3{
     width: 100%;
 }
 
+.price__standart{
+    position: absolute;
+    transition: 0.5s;
+    width: 80%;
+    height: 26.7%;
+    top:20%;
+    opacity: 0.8;
+    color: white;
+    font-size: 70pt;
+    display: grid;
+    align-content: end;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.price__studio{
+    position: absolute;
+    transition: 0.5s;
+    width: 80%;
+    height: 26.7%;
+    top:46.6%;
+    opacity: 0.8;
+    color: white;
+    font-size: 70pt;
+    display: grid;
+    align-content: end;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.price__lovestory{
+    position: absolute;
+    transition: 0.5s;
+    width: 80%;
+    height: 26.7%;
+    top:73.3%;
+    opacity: 0.8;
+    color: white;
+    font-size: 70pt;
+    display: grid;
+    align-content: end;
+    font-weight: 700;
+    margin-left: 15px;
+}
 
 
 

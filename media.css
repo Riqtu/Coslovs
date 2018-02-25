@@ -1,0 +1,50 @@
+
+@media only screen 
+and (max-width : 1443px) {
+    h1{
+        font-size: 40pt;
+    }
+    
+    h2{
+        font-size: 20pt;
+    }
+    .main-text{
+        font-size: 280pt;
+    }
+    .background-slider {
+        width: 130%;
+        left: -15%;
+    }
+    .background-slider img {
+        width:130%;
+        display:block;
+    }
+    .works-button{
+        font-size: 20pt;
+    }
+    .gallery__exit{
+        left: 40%;
+    }
+    .gallery__exit h1{
+        color: #ffec59;
+        font-size: 35pt;
+    }
+    .owl__items{
+        width: 100%;
+    }
+    .author__line{
+        font-size: 100pt;
+    }
+    .author__logo{
+        font-size: 50pt;
+    }
+    .author__text{
+        font-size: 20pt;
+        font-weight: 400;
+        opacity: 0;
+    }
+    .author__photo{
+        align-content: end;
+    }
+
+}

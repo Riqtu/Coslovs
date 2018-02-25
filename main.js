@@ -17,6 +17,14 @@ $(document).ready(function() {
         items:4,
         center:true,
         dots:false,
+        responsive:{
+            1024:{
+                items:4
+            },
+            0:{
+                items:3
+            },
+        }
     });
 });
 
