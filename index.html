@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="animate.css">
 
@@ -25,14 +26,15 @@
             <img src="img/d3.jpg">
             <img src="img/d4.jpg">
     </div>
-    <div class="main-text" class="animated fadeIn">
-        КОЗЛО<p>ВА</p>
-    </div>
+    <!--<div class="main-text" class="animated fadeIn">
+        КОЗЛО<wbr>ВА
+    </div>-->
     <div class="wall">
         <div class="wall__text"><h1 class="animated fadeIn">{{message}}</h1></div>
     </div>
-    <div class="works-button" class="animated fadeIn" onclick="gallery()">Работы</div>
-
+    <div class="wArea">
+    <div class="wArea__works-button" class="animated fadeIn" onclick="gallery()">Работы</div>
+    </div>
     <div class="menu" >
         <h2 class="animated fadeIn" onclick="author()">|О АВТОРЕ</h2><p></p>
         <h2 class="animated fadeIn" onclick="price()">|ЦЕНЫ</h2><p></p>
@@ -46,7 +48,7 @@
     </div> -->
 
     <div class="gallery">
-        <div class="gallery__logo" ><h1>#Козлова_фото</h1></div>
+        <div class="gallery__logo" onclick="gallery__exit()"><h1>#Козлова_фото </h1></div>
         <div class="owl-carousel owl-theme">
             <div class="owl__items"><img src="img/l1.jpg" alt=""></div>
             <div class="owl__items"><img src="img/l2.jpg" alt=""></div>
@@ -61,7 +63,7 @@
             <div class="owl__items"><img src="img/l11.jpg" alt=""></div>
 
         </div>
-        <div class="gallery__exit"><h1 onclick="gallery__exit()">x</h1></div>
+    <div class="gallery__exit"  onclick="gallery__exit()"><h1>ГЛАВНАЯ</h1></div>
     </div>
     
     <div class="author">
@@ -113,10 +115,12 @@
             <img src="img/vk.svg" alt="">
         </div>
         <div class="contacts__text">
+            <ul>
             <a href="https://vk.com/credonellaparola"> <img src="img/vk.svg" alt="">&#8194; - credonellaparola</a><p></p>
             <a href="https://vk.com/credonellaparola"> <img src="img/instagram.svg" alt="">&#8194; - coslovs</a><p></p>
             <a href=""> <img src="img/email.svg" alt="">&#8194; - coslovs@mail.ru</a><p></p>
             <a href=""> <img src="img/phone.svg" alt="">&#8194; - +79181232222</a>
+        </ul>
         </div>
     </div>
 
@@ -125,6 +129,7 @@
     <script src="http://malsup.github.com/jquery.cycle2.js"></script>
     <script src="owl.carousel.min.js"></script>
     <script src="main.js"></script>
+
 </body>
     
 </html>

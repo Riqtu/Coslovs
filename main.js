@@ -21,8 +21,11 @@ $(document).ready(function() {
             1024:{
                 items:4
             },
+            500:{
+                items:2
+            },
             0:{
-                items:3
+                items:1
             },
         }
     });
@@ -73,7 +76,7 @@ setTimeout (() => {
 }, 2010)
 
 setTimeout (() => {
-    $('.works-button').css('z-index','5');
+    $('.wArea').css('z-index','5');
     $('.wall').css('background-color','rgba(10, 10, 10, 0.2)');
 }, 2210)
 

@@ -1,29 +1,46 @@
-
 @media only screen 
+and (max-width : 1730px) {
+    .background-slider img {
+        margin-left: -5%;
+        width:110%;
+}
+
+    @media only screen 
 and (max-width : 1443px) {
     h1{
-        font-size: 40pt;
+        font-size: 50pt;
     }
     
     h2{
-        font-size: 20pt;
+        font-size: 30pt;
     }
     .main-text{
         font-size: 280pt;
+        min-height: 620px;
     }
     .background-slider {
-        width: 130%;
-        left: -15%;
+        width: 100%;
+        min-height: 620px;
     }
     .background-slider img {
+        margin-left: -15%;
         width:130%;
         display:block;
     }
-    .works-button{
-        font-size: 20pt;
+    .background-start {
+        min-height: 620px;
     }
-    .gallery__exit{
-        left: 40%;
+    .background-start__color{
+        min-height: 620px;
+    }
+    .wall{
+        min-height: 620px;
+    }
+    .wArea{
+        min-height: 620px;
+    }
+    .gallery{
+        min-height: 620px;
     }
     .gallery__exit h1{
         color: #ffec59;
@@ -31,6 +48,12 @@ and (max-width : 1443px) {
     }
     .owl__items{
         width: 100%;
+    }
+    .menu{
+        min-height: 620px;
+    }
+    .author{
+        min-height: 620px;
     }
     .author__line{
         font-size: 100pt;
@@ -45,6 +68,89 @@ and (max-width : 1443px) {
     }
     .author__photo{
         align-content: end;
+        min-height: 700px;
     }
+    .price{
+        min-height: 620px;
+    }
+    .price__line{
+        font-size: 100pt;
+    }
+    .price__logo{
+        font-size: 50pt;
+    }
+    .price__standart{
+        font-size: 40pt;
+    }
+    .price__studio{
+        font-size: 40pt;
+    }
+    .price__lovestory{
+        font-size: 40pt;
+    }
+    .contacts{
+        min-height: 620px;
+    }
+    .contacts__line{
+        font-size: 100pt;
+    }
+    .contacts__logo{
+        font-size: 50pt;
+    }
+    .contacts__text{
+        font-size: 40pt;
+        font-weight: 400;
+        opacity: 0;
+    }
+    .contacts__text img{
+        width: 60px;
+        float:left;
+    }
+}
+@media only screen 
+and (max-width : 1024px) {
+    .background-slider img {
+        margin-left: -25%;
+        width:150%;
+    }
+    .wArea__works-button{
+    font-size:17pt;
+    width: 20%;
+    height: 6%;
+    background-color: #ffec59;
+    top: 47%;
+    left: 40%;
+    }
+    .author__text{
+        font-size:15pt;
+    }
+    .price__text{
+        font-size:15pt;
+    }
+}
+@media only screen 
+and (max-width : 800px) {
+    h1{
+        font-size:35pt;
+    }
+    h2{
+        font-size: 20pt;
+    }
+    .background-slider img {
+        margin-left: -75%;
+        width:250%;
+    }
+    .wArea__works-button{
+    font-size:17pt;
 
+    }
+    .author__text{
+        font-size:15pt;
+    }
+    .price__text{
+        font-size:15pt;
+    }
+    .contacts__logo{
+        font-size: 40pt;
+    }
 }
