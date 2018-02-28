@@ -1,8 +1,8 @@
 @media only screen 
 and (max-width : 1730px) {
     .background-slider img {
-        margin-left: -5%;
-        width:110%;
+        margin-left: -8%;
+        width:116%;
 }
 
     @media only screen 
@@ -16,11 +16,11 @@ and (max-width : 1443px) {
     }
     .main-text{
         font-size: 280pt;
-        min-height: 620px;
+        min-height: 568px;
     }
     .background-slider {
         width: 100%;
-        min-height: 620px;
+        min-height: 568px;
     }
     .background-slider img {
         margin-left: -15%;
@@ -28,19 +28,19 @@ and (max-width : 1443px) {
         display:block;
     }
     .background-start {
-        min-height: 620px;
+        min-height: 568px;
     }
     .background-start__color{
-        min-height: 620px;
+        min-height: 568px;
     }
     .wall{
-        min-height: 620px;
+        min-height: 568px;
     }
     .wArea{
-        min-height: 620px;
+        min-height: 568px;
     }
     .gallery{
-        min-height: 620px;
+        min-height: 568px;
     }
     .gallery__exit h1{
         color: #ffec59;
@@ -50,10 +50,10 @@ and (max-width : 1443px) {
         width: 100%;
     }
     .menu{
-        min-height: 620px;
+        min-height: 568px;
     }
     .author{
-        min-height: 620px;
+        min-height: 568px;
     }
     .author__line{
         font-size: 100pt;
@@ -71,7 +71,7 @@ and (max-width : 1443px) {
         min-height: 700px;
     }
     .price{
-        min-height: 620px;
+        min-height: 568px;
     }
     .price__line{
         font-size: 100pt;
@@ -89,7 +89,7 @@ and (max-width : 1443px) {
         font-size: 40pt;
     }
     .contacts{
-        min-height: 620px;
+        min-height: 568px;
     }
     .contacts__line{
         font-size: 100pt;
@@ -106,6 +106,14 @@ and (max-width : 1443px) {
         width: 60px;
         float:left;
     }
+    .wArea__works-button{
+        font-size:24pt;
+        width: 20%;
+        height: 6%;
+        background-color: #ffec59;
+        top: 47%;
+        left: 40%;
+        }
 }
 @media only screen 
 and (max-width : 1024px) {
@@ -152,5 +160,371 @@ and (max-width : 800px) {
     }
     .contacts__logo{
         font-size: 40pt;
+    }
+}
+@media only screen 
+and (max-width : 450px) {
+    .desk{
+        display: none;
+    }
+    h1{
+        font-size: 40pt;
+        color: white;
+    }
+    
+    h2{
+        font-size: 25pt;
+        font-weight: 700;
+        color: white;
+    }
+    .background-slider img {
+        margin-left: -120%;
+        width:340%;
+    }
+    .menu{
+        width: 100%;
+        height: 20%;
+        min-height: 100px;
+        align-content: flex-start;
+    }
+    .wArea__works-button{
+        width: 40%;
+        height: 8%;
+        top: 70%;
+        left: 30%;
+        font-size: 25pt;
+        
+    }
+    .gallery__logo {
+        top:5%;
+    }
+    .gallery__logo h1{
+        font-size: 28pt;
+    }
+    .gallery__exit h1{
+        color: #ffec59;
+        font-size: 30pt;
+    }
+    .owl-carousel{
+        top: 12%;
+        cursor:pointer;
+        
+    }
+    .author__line{
+        width: 25%;
+        left: 75%;
+        font-size: 70pt;
+    }
+    .author__logo{
+        font-size: 25pt;
+    }
+    .author__text{
+        width: 71%;
+        height: 80%;
+        top:5%;
+        left: 2%;
+        font-size: 13pt;
+    }
+    .author__photo{
+        align-content: end;
+    }
+    .price__line{
+        width: 25%;
+        left: 75%;
+        font-size: 70pt;
+    }
+    .price__logo{
+        font-size: 25pt;
+    }
+    .price__text{
+        width: 71%;
+        height: 80%;
+        top:5%;
+        left: 2%;
+        font-size: 13pt;
+    }
+    .price__photo{
+        align-content: end;
+    }
+    .price__icon-back{overflow: hidden;
+        display: grid;
+        align-content: flex-end;
+        width:100%;
+        font-size: 400pt;
+        margin-left: -20%;
+        
+    }
+    .price__standart{
+        font-size: 22pt;
+        margin-left: 7px;
+    }
+    .price__studio{
+        font-size: 22pt;
+        margin-left: 7px;
+    }
+    .price__lovestory{
+        font-size: 22pt;
+        margin-left: 7px;
+    }
+    .contacts__line{
+        width: 25%;
+        left: 75%;
+        font-size: 70pt;
+    }
+    .contacts__logo{
+        font-size: 23pt;
+    }
+    .contacts__text{
+        display: grid;
+        align-content: center;
+        width: 71%;
+        height: 80%;
+        top:5%;
+        left: 2%;
+        font-size: 20pt;
+    }
+    .contacts__text img{
+        width: 30px;
+        float:left;
+    }
+    .contacts__icon-back-vk{overflow: hidden;
+        position: absolute;
+        transition: 0.5s;
+        width: 75%;
+        height: 70%;
+        top:66%;
+        left: -10%;
+        opacity: 0.1;
+        
+    }
+}
+
+
+
+@media only screen 
+and (max-width : 375px) {
+    h1{
+        font-size: 38pt;
+    }
+    
+    h2{
+        font-size: 23pt;
+    }
+    .wArea__works-button{
+        width: 40%;
+        height: 8%;
+        top: 70%;
+        left: 30%;
+        font-size: 23pt;
+    }
+
+    .gallery__logo h1{
+        font-size: 28pt;
+    }
+    .gallery__exit h1{
+        font-size: 28pt;
+    }
+    .author__line{
+        font-size: 68pt;
+    }
+    .author__logo{
+        font-size: 23pt;
+    }
+    .author__text{
+        width: 71%;
+        height: 80%;
+        top:5%;
+        left: 2%;
+        font-size: 11pt;
+    }
+    .author__photo{
+        top:0%;
+        width: 60%;
+        left:15%;
+        height: 100%;
+        align-content: end;
+    }
+    .price__line{
+        width: 25%;
+        left: 75%;
+        font-size: 68pt;
+    }
+    .price__logo{
+        font-size: 23pt;
+    }
+    .price__text{
+        width: 71%;
+        height: 80%;
+        top:5%;
+        left: 2%;
+        font-size: 11pt;
+    }
+    .price__photo{
+        align-content: end;
+    }
+    .price__icon-back{overflow: hidden;
+        display: grid;
+        align-content: flex-end;
+        width:100%;
+        font-size: 380pt;
+        margin-left: -20%;
+        
+    }
+    .price__standart{
+        font-size: 20pt;
+    }
+    .price__studio{
+        font-size: 20pt;
+    }
+    .price__lovestory{
+        font-size: 20pt;
+    }
+    .contacts__line{
+        width: 25%;
+        left: 75%;
+        font-size: 68pt;
+    }
+    .contacts__logo{
+        font-size: 20pt;
+    }
+    .contacts__text{
+        display: grid;
+        align-content: center;
+        width: 71%;
+        height: 80%;
+        top:5%;
+        left: 2%;
+        font-size: 18pt;
+    }
+    .contacts__text img{
+        width: 25px;
+        float:left;
+    }
+    .contacts__icon-back-vk{overflow: hidden;
+        position: absolute;
+        transition: 0.5s;
+        width: 75%;
+        height: 70%;
+        top:66%;
+        left: -10%;
+        opacity: 0.1;
+        
+    }
+}
+
+
+
+
+@media only screen 
+and (max-width : 320px) {
+    h1{
+        font-size: 33pt;
+    }
+    
+    h2{
+        font-size: 18pt;
+    }
+    .wArea__works-button{
+        width: 40%;
+        height: 8%;
+        top: 70%;
+        left: 30%;
+        font-size: 18pt;
+    }
+
+    .gallery__logo h1{
+        font-size: 23pt;
+    }
+    .gallery__exit h1{
+        font-size: 23pt;
+    }
+    .author__line{
+        font-size: 63pt;
+    }
+    .author__logo{
+        font-size: 18pt;
+    }
+    .author__text{
+        width: 71%;
+        height: 80%;
+        top:5%;
+        left: 2%;
+        font-size: 10pt;
+    }
+    .author__photo{
+        top:0%;
+        width: 50%;
+        left:25%;
+        height: 100%;
+        align-content: end;
+    }
+    .author__photo img{
+        width: 150%;
+    }
+    .price__line{
+        width: 25%;
+        left: 75%;
+        font-size: 63pt;
+    }
+    .price__logo{
+        font-size: 18pt;
+    }
+    .price__text{
+        width: 71%;
+        height: 80%;
+        top:5%;
+        left: 2%;
+        font-size: 7pt;
+    }
+    .price__photo{
+        align-content: end;
+    }
+    .price__icon-back{overflow: hidden;
+        display: grid;
+        align-content: flex-end;
+        width:100%;
+        font-size: 340pt;
+        margin-left: -20%;
+        
+    }
+    .price__standart{
+        font-size: 15pt;
+    }
+    .price__studio{
+        font-size: 15pt;
+    }
+    .price__lovestory{
+        font-size: 15pt;
+    }
+    .contacts__line{
+        width: 25%;
+        left: 75%;
+        font-size: 63pt;
+    }
+    .contacts__logo{
+        font-size: 18pt;
+    }
+    .contacts__text{
+        display: grid;
+        align-content: center;
+        width: 71%;
+        height: 80%;
+        top:5%;
+        left: 2%;
+        font-size: 13pt;
+    }
+    .contacts__text img{
+        width: 20px;
+        float:left;
+    }
+    .contacts__icon-back-vk{overflow: hidden;
+        position: absolute;
+        transition: 0.5s;
+        width: 75%;
+        height: 70%;
+        top:66%;
+        left: -10%;
+        opacity: 0.1;
+        
     }
 }
